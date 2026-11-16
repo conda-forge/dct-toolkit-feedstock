@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: dct-toolkit
-  version: "1.0.0"
+  version: "2.1.0"
 
 package:
   name: ${{ name }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/dct-toolkit/dct_toolkit-${{ version }}.tar.gz
-  sha256: ee20e3bc0690d709edd9e4097fb51cdf9905e8faf53b9bab7ca5f1da4a08c817
+  sha256: 6ac7cac5d79cb978d015c4d1df6ca87455df998e8811e5e38a22e376a8c73c0a
 
 build:
   number: 0
